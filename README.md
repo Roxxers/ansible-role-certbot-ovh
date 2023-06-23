@@ -4,6 +4,11 @@
 
 Installs and configures Certbot (for Let's Encrypt).
 
+
+## What's Changed
+
+This is a small fork of the geerlingguy/ansible-role-certbot role to add installing the ovh plugin package. If you don't have the very narrow requirements I do for my work (install ovh plugin before certbot tries to create new certificates), then you can ignore this repo.
+
 ## Requirements
 
 If installing from source, Git is required. You can install Git using the `geerlingguy.git` role.
